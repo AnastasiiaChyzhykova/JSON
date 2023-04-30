@@ -1,0 +1,39 @@
+{
+    "skills": {
+        "theory": [
+            "types of testing",
+            "testing methods",
+            "SDLC",
+            "STLC"
+        ],
+        "documentation": [
+            "check list",
+            "test case",
+            "test plan",
+            "bug report"
+        ],
+        "client_server_architecture": [
+            "client",
+            "server",
+            "database",
+            "data transfer protocols",
+            "status codes"
+        ],
+        "programs": [
+            "Postman",
+            "Charles",
+            "Fidler",
+            "Android Studio",
+            "XCode",
+            "Jmeter"
+        ],
+        "SQL": [
+            "Create",
+            "Delete",
+            "Drop",
+            "Insert Into",
+            "Select",
+            "Join"
+        ]
+    }
+}
