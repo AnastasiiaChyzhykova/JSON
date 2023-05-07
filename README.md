@@ -54,13 +54,15 @@
 
   `cat>> new.json`  
 
-`{
+```
+{
         "name": "Anastasiia",
         "surname": "Chyzhykova",
         "age": 27,
         "number_of_pets": 0,
         "salary": "1400$"
-}`
+}
+```
 
 
 ---
@@ -86,13 +88,15 @@
 
  `cat>> preferences.json`
 
-`{
+```
+{
 	"avorite_movie ": "Harry Potter ",
 	"favorite_series": "Sherlock",
 	"favorite_food": "borsch",
 	"favorite_season": "spring",
 	"the_country_you_would_like_to_visit": "Greece"
-}`
+}
+```
 	
 	
 ---
@@ -102,7 +106,8 @@
 
  `cat> skills.json`
 
-`{
+```
+{
     "skills": {
         "theory": [
             "types of testing",
@@ -140,7 +145,8 @@
             "Join"
         ]
     }
-}`
+}
+```
 
 
 ---
@@ -148,9 +154,9 @@
 
 **12. Отправить сразу 2 файла на внешний репозиторий.**
 
- `git add .
- git commit -m "Описание коммита"
- git push origin название ветки`
+ `git add .`
+ `git commit -m "Описание коммита"`
+ `git push origin название ветки`
  
  
  ---
@@ -158,9 +164,9 @@
  
 **13. На веб интерфейсе создать файл bug_report.json.**
 
- `add file
- create new file
- commit new file`
+ `add file`
+ `create new file`
+ `commit new file`
  
  
  ---
@@ -168,8 +174,8 @@
  
 **14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.**
 
- `edit this file
- commit changes`
+ `edit this file`
+ `commit changes`
  
  
  ---
@@ -177,10 +183,11 @@
  
 **15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.**
 
- `edit this file (bug_report.json)
- commit changes`
+ `edit this file (bug_report.json)`
+ `commit changes`
 
-`{
+```
+{
 	"bug_id": 155,
 	"severity": "minor",
 	"priority": "medium",
@@ -200,7 +207,8 @@
 	"ER": "The company's page on Instagram opens",
 	"Attachment": "Link",
 	"Author": "Anastasiia Chyzhykova"
- }`
+ }
+ ```
  
  
  ---
@@ -215,6 +223,7 @@
  
  
 **7. Синхронизировать внешний и локальный репозиторий JSON**
+
  `it pull oridgin main (название ветки)`
  
  
