@@ -2,23 +2,23 @@
 
 
 
-**1. Создать внешний репозиторий c названием JSON.**
+**1. Create a remote repository called JSON.**
 
- `В GitHub нажать: Repositories, New, Create repository.`
+ `On GitHub push: Repositories, New, Create repository.`
  
  
  ---
  
  
-**2. Клонировать репозиторий JSON на локальный компьютер.**  
+**2. Clone the JSON repository to the local computer.**  
 
- `git clone ссылка на репозиторий https://github.com/AnastasiiaChyzhykova/JSON.git`
+ `git clone link to repository https://github.com/AnastasiiaChyzhykova/JSON.git`
  
  
  ---
  
  
-**3. Внутри локального JSON создать файл “new.json”.**    
+**3. Create a "new.json" file inside the JSON context.**    
 
 `touch new.json`
 
@@ -26,7 +26,7 @@
 ---
 
 
-**4. Добавить файл под гит.**     
+**4. Add the file to Git.**     
 
  `git add new.json`
  
@@ -34,23 +34,23 @@
 ---
 
 
-**5. Закоммитить файл.**
+**5. Commit the file.**
 
- `git commit -m "Название коммита"`
+ `git commit -m "Commit name"`
  
  
  ---
  
  
-**6. Отправить файл на внешний GitHub репозиторий.**    
+**6. Send the file to a remote GitHub repository.**    
 
- `git push origin название ветки, куда хотим выставить код (например: main)`
+ `git push origin main (the name of the branch where we want to put the code)`
  
  
  ---
  
  
-**7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.**  
+**7. Edit the content of the "new.json" file - write information about yourself (name, age, number of pets, future desired salary). Write everything in JSON format.**  
 
   `cat>> new.json`  
 
@@ -68,15 +68,18 @@
 ---
 
 
-**8. Отправить изменения на внешний репозиторий.** 
+**8. Send changes to a remote repository.** 
 
- `git add new.json , git commit -m "Название коммита", git push origin название ветки`
- 
+```
+ git add new.json,
+ git commit -m "commit name",
+ git push origin branch name
+ ```
  
 ---
 
 
-**9. Создать файл preferences.json**
+**9. Create a preferences.json file.**
 
  `touch preferences.json`
  
@@ -84,7 +87,7 @@
 ---
 
 
-**10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.**
+**10. In the preferences.json file, add information about your preferences (favorite movie, favorite series, favorite food, favorite season, country you would like to visit) in JSON format.**
 
  `cat>> preferences.json`
 
@@ -102,7 +105,7 @@
 ---
 	
 	
-**11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON**
+**11. Create a file sklls.json, add information about skills that will be learned at the course in JSON format.**
 
  `cat> skills.json`
 
@@ -152,39 +155,44 @@
 ---
 
 
-**12. Отправить сразу 2 файла на внешний репозиторий.**
+**12. Send two files at once to the remote repository.**
 
- `git add .`
- `git commit -m "Описание коммита"`
- `git push origin название ветки`
+```
+ git add .
+ git commit -m "commit name"
+ git push origin branch name
+ ```
  
  
  ---
  
  
-**13. На веб интерфейсе создать файл bug_report.json.**
+**13. Create the bug_report.json file at the web interface.**
 
- `add file`
- `create new file`
- `commit new file`
+```
+ add file,
+ create new file,
+ commit new file
+ ```
  
  
  ---
  
  
-**14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.**
+**14. Make Commit changes (save) changes at the web interface.**
 
- `edit this file`
- `commit changes`
+```
+ edit this file,
+ press the button "commit changes"
+```
  
  
  ---
  
  
-**15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.**
+**15. Modify the bug_report.json file at the web interface and add the bug report in JSON format.**
 
- `edit this file (bug_report.json)`
- `commit changes`
+`edit this file (bug_report.json)`
 
 ```
 {
@@ -214,17 +222,17 @@
  ---
  
  
-**16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.**
+**16. Make Commit changes (save) changes at the web interface.**
 
- `ommit changes`
+ `press the button "commit changes"`
  
  
  ---
  
  
-**7. Синхронизировать внешний и локальный репозиторий JSON**
+**17. Synchronize remote and local JSON repository.**
 
- `it pull oridgin main (название ветки)`
+ `git pull oridgin main (branch name)`
  
  
  ---
