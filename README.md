@@ -54,7 +54,7 @@
 
   `cat>> new.json`  
 
-```
+```JSON
 {
         "name": "Anastasiia",
         "surname": "Chyzhykova",
@@ -91,7 +91,7 @@
 
  `cat>> preferences.json`
 
-```
+```JSON
 {
 	"avorite_movie ": "Harry Potter ",
 	"favorite_series": "Sherlock",
@@ -109,7 +109,7 @@
 
  `cat> skills.json`
 
-```
+```JSON
 {
     "skills": {
         "theory": [
@@ -194,7 +194,7 @@
 
 `edit this file (bug_report.json)`
 
-```
+```JSON
 {
 	"bug_id": 155,
 	"severity": "minor",
